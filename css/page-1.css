@@ -1,0 +1,143 @@
+/*
+
+@Author Mateja Sakovic
+         created: 3.8.2022 
+         
+
+This page is for design of html page "page-1" 
+
+*/
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('../slike/body.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+header {
+    background-color: #fff;
+    margin-left: 117px;
+    margin-right: 117px;
+    margin-top: 15px;
+
+    position: sticky;
+    top: 20px;
+    -webkit-box-shadow: 0px 0px 40px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 40px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 40px -7px rgba(0, 0, 0, 0.75);
+    border-radius: 27px;
+
+}
+
+
+header .header img {
+    width: 112px;
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+
+header .header .header-list {
+    list-style: none;
+}
+
+
+
+header .header .header-list li {
+
+    display: inline-block;
+    padding-top: 8px;
+
+}
+
+header .header .header-list li a {
+
+    text-decoration: none;
+    color: rgb(71, 79, 87);
+    margin-left: 20px;
+    font-size: 13px;
+
+}
+
+header .header .header-list li .mapa {
+
+    width: 40px;
+    height: 44px;
+
+}
+
+header .header {
+    background-color: #fff;
+
+    padding-top: 15px;
+}
+
+
+
+
+
+.page-1 .kakodakupim {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    color: grey;
+
+
+}
+
+.page-1 .step-1 img {
+    margin-left: 94px;
+
+}
+
+.page-1 .step-1 p {
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 94px;
+    margin-right: 53px;
+    margin-top: 5px;
+}
+
+
+
+.page-1 .step-2 img {
+
+    margin-left: 107px;
+
+}
+
+
+
+.page-1 .step-2 p {
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 107px;
+    margin-right: 67px;
+    margin-top: 5px;
+}
+
+.page-1 .step-3 img {
+    margin-left: 110px;
+}
+
+
+.page-1 .step-3 p {
+
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 110px;
+    margin-right: 70px;
+    margin-top: 5px;
+
+
+
+}

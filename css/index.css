@@ -1,0 +1,294 @@
+/*
+
+@Author Mateja Sakovic
+         created: 3.8.2022 
+         
+
+This page is for design of html page "index" 
+
+*/
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('../slike/body.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #fff;
+    margin-left: 117px;
+    margin-right: 117px;
+    margin-top: 15px;
+    position: sticky;
+    top: 20px;
+    border-radius: 27px;
+    -webkit-box-shadow: 0px 0px 40px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 40px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 40px -7px rgba(0, 0, 0, 0.75);
+
+
+
+
+}
+
+
+
+
+
+
+header .header img {
+    width: 112px;
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+
+header .header .header-list {
+    list-style: none;
+}
+
+
+
+header .header .header-list li {
+
+    display: inline-block;
+    padding-top: 8px;
+
+}
+
+header .header .header-list li a {
+
+    text-decoration: none;
+    color: rgb(71, 79, 87);
+    margin-left: 20px;
+    font-size: 13px;
+    transition: 0.2s;
+
+}
+
+header .header .header-list li .mapa {
+
+    width: 40px;
+    height: 44px;
+
+}
+
+
+
+
+
+header .header .header-list li a:hover {
+
+    color: orange;
+
+}
+
+
+header .header {
+
+    padding-top: 15px;
+}
+
+
+.home .outlet {
+    height: 373px;
+    width: 768px;
+    margin-top: 10px;
+
+}
+
+.home .contact {
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: 20px;
+
+
+}
+
+.home .contact p {
+    text-align: center;
+
+
+}
+
+.home .contact p a {
+
+    color: gray;
+    text-decoration: none;
+
+    transition: 0.2s;
+
+
+}
+
+
+
+
+.home .contact p a:hover {
+    color: orange;
+    background-color: transparent;
+}
+
+.home img {
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.home .action {
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 5px;
+
+
+}
+
+.home .action img {
+    width: 58px;
+    height: 50px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+}
+
+.home .action p {
+    font-size: 15px;
+
+
+}
+
+.home .action h2 {
+    text-align: center;
+}
+
+.home .action a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.2s;
+}
+
+.home .action a:hover {
+    color: orange;
+
+}
+
+
+
+.products {
+    background-color: transparent;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 110px;
+}
+
+
+
+.products a {
+
+    text-decoration: none;
+    color: grey;
+    transition: 0.2s;
+
+
+}
+
+.products a:hover {
+    color: orange;
+
+
+
+
+}
+
+
+
+.products a p {
+    text-align: center;
+    background-color: #fff;
+
+    margin-top: -20px;
+
+
+}
+
+.products .paragraph {
+    width: 250px;
+
+}
+
+
+.cookie-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 200px;
+
+    text-decoration: none;
+    border: none;
+    padding: 2px;
+    transition: 0.2s;
+
+
+}
+
+.cookie-btn:hover {
+    background-color: orange;
+    color: gray;
+
+}
+
+.cookie-background {
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+.cookie-div {
+    display: none;
+    background-color: #fff;
+    position: fixed;
+    top: 40%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding-left: 10px;
+
+    max-width: 600px;
+    z-index: 200;
+}
+
+#close-cookie {
+    border: none;
+    background-color: #fff;
+    position: relative;
+    left: 96.7%;
+
+    width: 20px;
+    transition: 0.2s;
+}
+
+#close-cookie:hover {
+    background-color: orange;
+
+}
